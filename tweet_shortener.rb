@@ -56,7 +56,7 @@ no_mas = String.new
   if tweet.length > 140
     no_mas << word_substituter(tweet)
     puts no_mas[0..137] + "..."
-    return no_mas[0..139]
+    return no_mas[0..137] + "..."
   end
   puts tweet
   return tweet
