@@ -51,12 +51,3 @@ def word_substituter(tweet)
 end
 
 
-
-
-  #return the modified new string here or at the bottom
-end
-
-# tweet = "hello guys can anyone teach me how to be cool?"
-
-
-end
