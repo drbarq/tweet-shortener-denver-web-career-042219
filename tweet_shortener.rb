@@ -47,6 +47,7 @@ def word_substituter(tweet)
       end
   end
   puts mod_tweet_array.join(" ")
+  return mod_tweet_array.join(" ")
 end
 
 
