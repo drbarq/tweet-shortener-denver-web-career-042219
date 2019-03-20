@@ -49,4 +49,21 @@ def selective_tweet_shortener(tweet)
   return tweet
 end
 
+
+def shortened_tweet_truncator(tweet)
+  no_mas = String.new[1..140]
+
+  if tweet.length > 140
+    word_substituter(tweet)
+   return word_substituter(tweet)
+  end
+  puts tweet
+  return tweet
+end
+
+
+end 
+
+
+
 # long_tweet = "GUISEEEEE this is so fun! I'm tweeting for you guys and this tweet is SOOOO long it's gonna be way more than you would think twitter can handle, so shorten it up you know what I mean? I just can never tell how long to keep typing!"
