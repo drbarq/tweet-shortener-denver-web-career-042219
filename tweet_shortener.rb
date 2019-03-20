@@ -1,11 +1,7 @@
-# Write your code here.
-
-require 'pry'
 
 
 # tweet = "Hey guys, can anyone teach me how to be cool?"
 
-#use word substitutor to take in the tweet, check each word in the dictionary and return a new shorter tweet
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   tweet_string = String.new
@@ -35,3 +31,7 @@ def word_substituter(tweet)
   puts mod_tweet_array.join(" ")
   return mod_tweet_array.join(" ")
 end
+
+
+
+
