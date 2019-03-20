@@ -46,7 +46,6 @@ def word_substituter(tweet)
         mod_tweet_array << word
       end
   end
-  binding.pry
   puts mod_tweet_array
 end
 
