@@ -39,7 +39,7 @@ def word_substituter(tweet)
 
     tweet_array.each do |word|
       if dictionary.keys.include?(word)
-        mod_tweet_array << dictionary.values[0]
+        mod_tweet_array << dictionary.values
       else
         mod_tweet_array << word
       end
