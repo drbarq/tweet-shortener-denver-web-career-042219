@@ -22,7 +22,8 @@ dictionary = {
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   tweet_string = String.new
-  dictionary_two = "can"
+  mod_tweet_array = Array.new
+
   dictionary = {
     "hello" => "hi",
     "to" => '2',
@@ -41,14 +42,12 @@ def word_substituter(tweet)
 
     tweet_array.each do |word|
       if word == dictionary.keys[0]
-        puts "gotems"
-        #tweet_array.swap(word, "hello")
+        mod_tweet_array << dictionary.keys[0]
       else
-        tweet_array << word
+        mod_tweet_array << word
       end
-
-      puts tweet_array
   end
+  puts mod_tweet_array
 end
   #return the modified new string here or at the bottom
 end
