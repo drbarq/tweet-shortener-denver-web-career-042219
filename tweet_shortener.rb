@@ -23,12 +23,24 @@ def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   tweet_string = String.new
   dictionary_two = "can"
+  dictionary = {
+    "hello" => "hi",
+    "to" => '2',
+    "two" => "2",
+    "too" => "2",
+    "for" => '4',
+    "four" => "4",
+    "be" => 'b',
+    "you" => 'u',
+    "at" => "@",
+    "and" => "&",
+      }
 # if the word matches a key of the dictionary, swap out the element in the array with the dictionary key value
 #could this be done destructivley? or do I need to create a new string?
 #i see these double brackets
 
     tweet_array.each do |word|
-      if word == "teach"
+      if word == dictionary.keys[0]
         puts "gotems"
         #tweet_array.swap(word, "hello")
       else
