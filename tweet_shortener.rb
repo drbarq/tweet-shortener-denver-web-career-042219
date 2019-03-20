@@ -4,7 +4,7 @@ require 'pry'
 
 # how do I search the array of to and four?
 #if key is an array, use an enumerator
-dictionary = {
+dictionary_2 = {
   "hello" => "hi",
   "to" => '2',
   "two" => "2",
@@ -17,7 +17,15 @@ dictionary = {
   "and" => "&",
     }
 
-
+dictionary = {
+    "hello" => 'hi',
+    ["to", "two", "too"] => '2',
+    ["for, four"] => '4',
+    'be' => 'b',
+    'you' => 'u',
+    "at" => "@",
+    "and" => "&",
+  }
 
 
 #use word substitutor to take in the tweet, check each word in the dictionary and return a new shorter tweet
