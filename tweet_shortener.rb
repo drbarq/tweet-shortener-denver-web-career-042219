@@ -36,9 +36,6 @@ def word_substituter(tweet)
     "at" => "@",
     "and" => "&",
       }
-# if the word matches a key of the dictionary, swap out the element in the array with the dictionary key value
-#could this be done destructivley? or do I need to create a new string?
-#i see these double brackets
 
     tweet_array.each do |word|
       if word == dictionary.keys[0]
@@ -49,6 +46,10 @@ def word_substituter(tweet)
   end
   puts mod_tweet_array
 end
+
+
+
+
   #return the modified new string here or at the bottom
 end
 
