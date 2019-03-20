@@ -27,6 +27,7 @@ dictionary = {
     "and" => "&",
   }
 
+tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything"
 
 #use word substitutor to take in the tweet, check each word in the dictionary and return a new shorter tweet
 def word_substituter(tweet)
