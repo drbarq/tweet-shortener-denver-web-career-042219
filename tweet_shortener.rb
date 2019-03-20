@@ -47,9 +47,19 @@ def word_substituter(tweet)
     "and" => "&",
       }
 
+      dictionary_two = {
+          "hello" => 'hi',
+          ["to", "two", "too"] => '2',
+          ["for, four"] => '4',
+          'be' => 'b',
+          'you' => 'u',
+          "at" => "@",
+          "and" => "&",
+        }
+
     tweet_array.each do |word|
-      if dictionary.keys.include?(word)
-        mod_tweet_array << dictionary[word]
+      if dictionary_2.keys.include?(word)
+        mod_tweet_array << dictionary_2[word]
       else
         mod_tweet_array << word
       end
