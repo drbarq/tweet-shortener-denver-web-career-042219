@@ -62,7 +62,7 @@ no_mas = String.new
   return tweet
 end
 
-
+# I guess its either 1 - 140 or 0 - 139 
 
 
 
