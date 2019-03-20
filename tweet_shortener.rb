@@ -55,8 +55,8 @@ def shortened_tweet_truncator(tweet)
 no_mas = String.new
   if tweet.length > 140
     no_mas << word_substituter(tweet)
-    puts no_mas[0..137] + "..."
-    return no_mas[0..137] + "..."
+    puts no_mas[0..136] + "..."
+    return no_mas[0..136] + "..."
   end
   puts tweet
   return tweet
