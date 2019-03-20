@@ -1,5 +1,7 @@
 # Write your code here.
 
+require 'pry'
+
 # how do I search the array of to and four?
 #if key is an array, use an enumerator
 dictionary = {
@@ -44,6 +46,7 @@ def word_substituter(tweet)
         mod_tweet_array << word
       end
   end
+  binding.pry
   puts mod_tweet_array
 end
 
